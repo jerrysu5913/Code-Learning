@@ -1,0 +1,3 @@
+/mnt/space/work/Code-Learning/cmake-build-debug/CMakeFiles/Code_Learning.dir
+/mnt/space/work/Code-Learning/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/space/work/Code-Learning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
