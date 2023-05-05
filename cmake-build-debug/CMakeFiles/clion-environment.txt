@@ -1,3 +1,3 @@
 ToolSet: 1.0 (local)Options: 
 
-Options:-DCMAKE_MAKE_PROGRAM=/mnt/space/system/ide/bin/ninja/linux/x64/ninja
+Options:

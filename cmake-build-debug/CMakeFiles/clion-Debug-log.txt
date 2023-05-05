@@ -1,4 +1,10 @@
-/mnt/space/system/ide/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/mnt/space/system/ide/bin/ninja/linux/x64/ninja -G Ninja -S /mnt/space/work/Code-Learning -B /mnt/space/work/Code-Learning/cmake-build-debug
+"/Users/jerrysu/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/jerrysu/CLionProjects/Code-Learning -B /Users/jerrysu/CLionProjects/Code-Learning/cmake-build-debug
+-- The C compiler identification is AppleClang 14.0.3.14030022
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/space/work/Code-Learning/cmake-build-debug
+-- Build files have been written to: /Users/jerrysu/CLionProjects/Code-Learning/cmake-build-debug
