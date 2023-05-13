@@ -1,17 +1,24 @@
-#include<stdio.h>
-
-double m_tax(double salary,int month);
-
+#include <stdio.h>
+void fun (char *s, char *t);
 int main()
-{
-    double money,tax;
-    int i;
-    for(i=1;i<=12;i++)
-    {
-        scanf("%lf",&money);
-        tax=m_tax(money,i);
-        printf("the sum of %d months tax is %.2f\n",i,tax);
-    }
+{ char s[100], t[100];
+    scanf("%s", s);
+    fun(s, t);
+    printf("%s\n", t);
     return 0;
 }
+
 /* 请在这里填写答案 */
+void fun (char *s, char *t)
+{
+    int i = 0;
+    while (s[i] != '\0') {
+        if (s[i] >= 'a' && s[i] <= 'z') {
+            t[i] = s[i] - 32;
+        } else {
+            t[i] = s[i];
+        }
+        i++;
+    }
+    t[i] = '\0';
+}
