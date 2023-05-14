@@ -6,4 +6,4 @@ set(CMAKE_C_STANDARD 11)
 include_directories(.)
 
 add_executable(Code_Learning
-        main.c "C变量作用域/6-6 使用函数记账.c" "C变量作用域/6-7 随机函数(简).c" "C指针1/6-1 拆分实数的整数与小数部分.c")
+        main.c "C变量作用域/6-5 月纳税额计算.c")

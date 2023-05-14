@@ -9,16 +9,3 @@ int main()
 }
 
 /* 请在这里填写答案 */
-void fun (char *s, char *t)
-{
-    int i = 0;
-    while (s[i] != '\0') {
-        if (s[i] >= 'a' && s[i] <= 'z') {
-            t[i] = s[i] - 32;
-        } else {
-            t[i] = s[i];
-        }
-        i++;
-    }
-    t[i] = '\0';
-}
