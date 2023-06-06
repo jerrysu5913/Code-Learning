@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/workspaces/Code-Learning/build",
+  "command": "/usr/bin/gcc  -I/workspaces/Code-Learning/. -g -std=gnu11 -o CMakeFiles/Code_Learning.dir/main.c.o -c /workspaces/Code-Learning/main.c",
+  "file": "/workspaces/Code-Learning/main.c",
+  "output": "CMakeFiles/Code_Learning.dir/main.c.o"
+}
+]

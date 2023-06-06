@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/Code_Learning.dir/main.c.o -o Code_Learning 

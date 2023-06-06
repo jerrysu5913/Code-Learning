@@ -1,0 +1,3 @@
+/workspaces/Code-Learning/build/CMakeFiles/Code_Learning.dir
+/workspaces/Code-Learning/build/CMakeFiles/edit_cache.dir
+/workspaces/Code-Learning/build/CMakeFiles/rebuild_cache.dir
