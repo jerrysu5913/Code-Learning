@@ -14,6 +14,6 @@ long long lcm(long long a, long long b){
 int main(){
     long long a,b;
     scanf("%lld %lld",&a,&b);
-    printf("%lld",lcm(a,b));
+    printf("%lld",lcm(llabs(a),llabs(b)));
     return 0;
 }
