@@ -24,6 +24,7 @@ int main()
 
 /* 你的代码将被嵌在这里 */
 void ArrayShift( int a[], int n, int m ){
+    if(m>n) m=m%n;
     int b[m],i,j,k;
     for(i=n-m,j=0;i<n;i++,j++){
         b[j]=a[i];
