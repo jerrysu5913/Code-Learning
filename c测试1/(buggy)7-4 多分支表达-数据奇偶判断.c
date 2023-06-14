@@ -1,8 +1,11 @@
-//
-//  (buggy)7-4 多分支表达-数据奇偶判断.c
-//  Code- Learning
-//
-//  Created by Jerry Su on 6/14/23.
-//
+#include <stdio.h>
 
-#include "(buggy)7-4 多分支表达-数据奇偶判断.h"
+int main(){
+    int a,b;
+    scanf("%d,%d",&a,&b);
+    if(a==0&&b==0) ;
+    else if(a%2==0&&b%2==0) printf("%d+%d=%d",a,b,a+b);
+    else if(a%2!=0&&b%2!=0) printf("%d-%d=%d",a,b,a-b);
+    else if(a%2!=0&&b%2==0) printf("%d*%d=%d",a,b,a*b);
+    else if(a%2==0&&b%2!=0) printf("%d/%d=%d",a,b,a/b);
+}

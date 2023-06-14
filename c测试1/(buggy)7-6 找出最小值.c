@@ -1,8 +1,12 @@
-//
-//  (buggy)7-6 找出最小值.c
-//  Code- Learning
-//
-//  Created by Jerry Su on 6/14/23.
-//
-
 #include <stdio.h>
+
+int main(){
+    int n,number,min,t;
+    scanf("%d",&n);
+    scanf("%d",&min);
+    for(int i=0;i<n;i++){
+        scanf("%d",&number);
+        if(min>number) min=number;
+    }
+    printf("min = %d",min);
+}

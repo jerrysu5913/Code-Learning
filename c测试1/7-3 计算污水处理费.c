@@ -1,8 +1,9 @@
-//
-//  7-3 计算污水处理费.c
-//  Code- Learning
-//
-//  Created by Jerry Su on 6/14/23.
-//
+#include <stdio.h>
 
-#include "7-3 计算污水处理费.h"
+int main(){
+    int w,fee;
+    scanf("%d",&w);
+    if(w<=10) fee=2*w;
+    else fee=2*10+3*(w-10);
+    printf("%d\n",fee);
+}
