@@ -5,7 +5,7 @@ int main(){
     char ch;
     for(int i=0;i<10;i++){
         scanf("%c",&ch);
-        if(ch>='A'&&ch<='Z'||ch>='a'&&ch<'z') letter++;
+        if(ch>='A'&&ch<='Z'||ch>='a'&&ch<='z') letter++;
         else if(ch>='0'&&ch<='9') digit++;
         else if(ch==' '||ch=='\n') blank++;
         else other++;
