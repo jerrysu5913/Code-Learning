@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 int main(){
     int letter=0,blank=0,digit=0,other=0;
