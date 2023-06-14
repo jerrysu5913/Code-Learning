@@ -1,8 +1,22 @@
-//
-//  7-8 1000以内所有各位数字之和为n的正整数.c
-//  Code- Learning
-//
-//  Created by Jerry Su on 6/14/23.
-//
-
 #include <stdio.h>
+
+int main(){
+    int number=1,sum,t,expect,dig,count=1;
+    scanf("%d",&expect);
+    while(number!=1000){
+        sum=0;
+        t=number;
+        while (t!=0){
+        dig=t%10;
+        sum+=dig;
+        t/=10;
+        }
+        if(sum==expect){
+            printf("%8d",number);
+            if(count%6==0) printf("\n");
+            count++;
+        }
+        number++;
+    }
+    return 0;
+}
