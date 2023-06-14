@@ -1,8 +1,14 @@
-//
-//  7-7 上三角数字三角形 7-7 上三角数字三角形 7-7 上三角数字三角形 7-7 上三角数字三角形 7-7 上三角数字三角形.c
-//  Code- Learning
-//
-//  Created by Jerry Su on 6/14/23.
-//
-
 #include <stdio.h>
+
+int main(){
+    int n,k=1;
+    scanf("%d",&n);
+    for(int i=0;i<n;i++){
+        for(int j=n-i;j>0;j--){
+            printf("%4d",k);
+            k++;
+        }
+        printf("\n");
+    }
+    return 0;
+}
